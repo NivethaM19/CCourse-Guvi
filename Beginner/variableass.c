@@ -11,11 +11,11 @@ Little Master
 #include<stdio.h>
 int main(void)
 {
-char name[30]="Sachin Ramesh Tendulkar';
+char name[30]="Sachin Ramesh Tendulkar";
 char nick[25]="Little Master";
 int odi=18426;
 float avg=44.86;
 int match=463;
-printf("%c\n%c\n%d\n%f\n%d",name,nick,odi,avg,match);
+printf("%s\n%s\n%d\n%f\n%d",name,nick,odi,avg,match);
 getch();
 }
